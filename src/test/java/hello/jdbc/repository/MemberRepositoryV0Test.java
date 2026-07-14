@@ -18,7 +18,7 @@ class MemberRepositoryV0Test {
     MemberRepositoryV0 repositoryV0 = new MemberRepositoryV0();
 
     @Test
-    void save() throws SQLException {
+    void crud() throws SQLException {
         // save
         Member member = new Member("memberV4", 10000);
         repositoryV0.save(member);
